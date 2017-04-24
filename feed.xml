@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justin Conway Chicago-based Front End Developer</title>
+    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.
+</description>
+    <link>http://conwaydev.com/</link>
+    <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Apr 2017 16:53:03 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Apr 2017 16:53:03 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>2 Awesome Uses for Screaming Frog</title>
+        <description>&lt;p&gt;Recently I’ve had to learn a &lt;em&gt;lot&lt;/em&gt; about SEO in a very short amount of time. I would say the biggest “gotcha” moment I’ve had is finding out about and using the &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog SEO Spider&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/screamingfrog.jpg&quot; alt=&quot;Screaming Frog SEO Spider&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Screaming Frog SEO Spider is a website crawler, that allows you to crawl websites’ URLs and fetch key onsite elements to analyse from an SEO perspective. Download for free, or purchase a licence for additional features.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;917&quot; height=&quot;516&quot; src=&quot;https://www.youtube.com/embed/AOzOffh9HIE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I have been totally blown away by how you can just scan a whole site in a matter of seconds and see immediately all your broken links and image references. I spent a great portion of my web development career believing that SEO was snake oil sales, but I’m realizing its importance now more than ever &lt;sup&gt;1&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Screaming Frog rules for performing an SEO audit on your site, but I’d like to point out 2 interesting ways to use Screaming Frog.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-identifying-slow-loading-pages&quot;&gt;1. Identifying Slow Loading Pages&lt;/h3&gt;
+
+&lt;p&gt;Well of course you’re an incredible web developer who is the Michael Jordan of web page performance and you never have any slow loading pages ever, right? Well if for some reason you &lt;em&gt;might&lt;/em&gt; have some slow pages Screaming Frog can identify those immediately.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/response-time.jpg&quot; alt=&quot;Response Time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All you need to do is filter by “Response Time” in the main crawl!&lt;/p&gt;
+
+&lt;h3 id=&quot;2-finding-all-lazy-loaded-images&quot;&gt;2. Finding All Lazy Loaded Images&lt;/h3&gt;
+
+&lt;p&gt;By default Screaming Frog is really awesome with images. If it finds it in your markup it will automatically make a request for that image, which rules! Now how about if you’re a radical web developer who lazy loads all their images so that their users don’t have to unnecessarily download each one &lt;sup&gt;2&lt;/sup&gt;? Well you’re in luck because theres a special part of Screaming Frog called “Custom Extractions”. All you need to do is add either an XPath or a regex for your images like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/extraction.jpg&quot; alt=&quot;Custom Extraction&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then we can see that we got all the images on the page, even though those were already lazy loaded:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/extraction-success.jpg&quot; alt=&quot;Custom Extraction&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t really understand XPath (I still don’t), but I find its easiest to get the global images by simply placing &lt;code class=&quot;highlighter-rouge&quot;&gt;//img&lt;/code&gt;. Its even easier to get the value through regex, but this will suffice for most cases.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Say what you will about Screaming Frog, it’s Windows 98-esque UI, or the fact that it probably should be a web app that has a SaaS model, it is an incredibly powerful application that definitely has changed the way I view SEO. There is so much more that you can do with the application, but its an essential tool in performing a real SEO audit of your webite.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Footnotes&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Caveat, there’s still totally snake oil salesmen in that industry.&lt;/li&gt;
+  &lt;li&gt;Lol not me on this site.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.seerinteractive.com/blog/screaming-frog-guide/&quot;&gt;seerinteractive.com/blog/screaming-frog-guide/&lt;/a&gt; is the best link ever and explains 53 cooler things to do with the software.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.screamingfrog.co.uk/10-features/&quot;&gt;https://www.screamingfrog.co.uk/10-features/&lt;/a&gt; is also a great list of ways to use the software and actually from the company that develops and maintains it.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 23 Aug 2016 21:50:24 +0000</pubDate>
+        <link>http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Gulp in a Jekyll Project</title>
+        <description>&lt;p&gt;Even though I’m trying not to rely on JS build systems as much anymore and rather use plain npm scripts, I have to say I still love them. They absolutely changed my life when I started using them. Today I’m going to talk about using Gulp inside of Jekyll. Now Jekyll has a really useful server inside itself, but I prefer being able to control a little more and gulp gives me that ability.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-gulp&quot;&gt;What is gulp?&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/gulp.jpg&quot; alt=&quot;gulp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From https://github.com/gulpjs/gulp it is described as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation - gulp is a toolkit that helps you automate painful or time-consuming tasks in your development workflow.&lt;/li&gt;
+  &lt;li&gt;Platform-agnostic - Integrations are built into all major IDEs and people are using gulp with PHP, .NET, Node.js, Java, and other platforms.&lt;/li&gt;
+  &lt;li&gt;Strong Ecosystem - Use npm modules to do anything you want + over 2000 curated plugins for streaming file transformations&lt;/li&gt;
+  &lt;li&gt;Simple - By providing only a minimal API surface, gulp is easy to learn and simple to use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I like to use gulp to compile and concatenate my assets, but there is so much you can do with it. The first thing you’re going to want to do is create your package.json file. I find the easiest way is to &lt;code class=&quot;highlighter-rouge&quot;&gt;npm init&lt;/code&gt;. Once you’ve generated that you can go ahead and start installing our dependencies we’re going to need.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install gulp gulp-sass browser-sync gulp-autoprefixer gulp-plumber --save-dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then you’re going to create a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; and paste this code in there.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var gulp = require('gulp');
+var sass = require('gulp-sass');
+var browserSync = require('browser-sync');
+var prefix = require('gulp-autoprefixer');
+var minify = require('gulp-clean-css');
+var plumber = require('gulp-plumber');
+var cp = require('child_process');
+
+gulp.task('jekyll-build', function (done) {
+    return cp.spawn('jekyll' , ['build'], {stdio: 'inherit'})
+        .on('close', done);
+});
+
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
+});
+
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+});
+
+gulp.task('sass', function(){
+    return gulp.src('_sass/main.scss')
+        .pipe(sass())
+        .pipe(prefix('last 2 versions'))
+        .pipe(minify())
+        .pipe(gulp.dest('_site/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('css'))
+        .pipe(plumber())
+});
+
+gulp.task('watch', function () {
+    gulp.watch(['*.scss', 'css/*.scss', '_sass/**/*.scss'], ['sass', 'jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+gulp.task('default', ['browser-sync', 'watch']);
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can see that what we’re doing is instead of letting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; handle the SCSS we are just compiling it ourselves then running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll rebuild&lt;/code&gt;. So once you have your &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; filled with this all you need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp&lt;/code&gt; and it will automatically spin up a live server and minify your SCSS. Neat!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2016 03:50:24 +0000</pubDate>
+        <link>http://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
