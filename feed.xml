@@ -2,19 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Conway Chicago-based Front End Developer</title>
-    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.
-</description>
-    <link>http://conwaydev.com/</link>
-    <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Apr 2017 14:00:36 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2017 14:00:36 +0000</lastBuildDate>
+    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.</description>
+    <link>https://conwaydev.com/</link>
+    <atom:link href="https://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Sep 2017 17:39:38 +0000</pubDate>
+    <lastBuildDate>Sun, 10 Sep 2017 17:39:38 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Performance Testing Tools</title>
+        <description>&lt;p&gt;Its hard to find web developers in 2017 who don’t factor in performance into their day to day work. Stakeholders are realizing that web performance is essential to their business and conversions, and developers are realizing that not everyone in the world is accessing websites from a brand new MacBook Pro with blazing fast internet speeds. As a developer I may go a bit overboard, some may even call it an obsession, but web performance is something I’m incredibly passionate about. It all ties back in to the inclusion of the web, and providing the best possible experience for every person to access your site or product.&lt;/p&gt;
+
+&lt;p&gt;I’d like to take this time to showcase 3 different tools I like to use for testing out the performance of whatever I’m working on at any given time. There are tons of various tools and software applications, but I like to use a range of tools to get a common baseline. Creating real world performance metrics is difficult and often inconsistent, but by using different tools you can at least get an idea of what you’re doing right, and what you may be doing wrong.&lt;/p&gt;
+
+&lt;h3 id=&quot;webpagetestorg&quot;&gt;WebPageTest.org&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/webpage.jpg|/assets/img/webpage@2x.jpg&quot; alt=&quot;WebPageTest.org&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.webpagetest.org/&quot;&gt;WebPageTest.org&lt;/a&gt; is easily the best (free) performance tool I’ve used. The testing is so thorough and the biggest thing that I appreciate is that they have an API, so you can programmatically run performance tests, allowing for awesome tooling like &lt;a href=&quot;https://speedtracker.org/&quot;&gt;speedtracker.org&lt;/a&gt;. There are also forums filled with really intelligent people who know way more than me about web performance. I personally like to use the visual comparison tool when I am creating a new feature in order to test performance against the current production environment, just in case I’m introducing any new performance regressions.&lt;/p&gt;
+
+&lt;h3 id=&quot;gtmetrixcom&quot;&gt;GTMetrix.com&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/gtmetrix.jpg|/assets/img/gtmetrix@2x.jpg&quot; alt=&quot;GTMetrix.com&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTMetrix&lt;/a&gt; was actually my first introduction to web performance testing. There was a time when I worked for a small web agency and when pitching jobs to clients, things like performance or accessibility weren’t part of the scope, often times it was “How can we get this in the hands to our client as fast and cheap as possible”. I didn’t know any better, but at that time I started getting the hunch that maybe putting 40 different JavaScript files on a page wasn’t such a great idea. My coworker recommended me this tool that showed you “everything you were doing wrong with web development”. It quickly becoming my bargaining chip. I was able to show stakeholders, and eventually clients an actual number indicating that performance was something we needed to consider up front, not after the fact. I still rely heavily on GTMetrix, I really appreciate their comparison report, and also their merging of both PageSpeed scores and YSlow. Its very validating when working on a larger scale application to score high on it.&lt;/p&gt;
+
+&lt;h3 id=&quot;google-pagespeed-insights&quot;&gt;Google PageSpeed Insights&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/pagespeed.jpg|/assets/img/pagespeed@2x.jpg&quot; alt=&quot;Google PageSpeed Insights&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last tool I’d like to share is Google’s own &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;. The irony of using this tool is running through various Google sites and services and seeing that not even they can get a perfect 100. I believe that their goal is raise awareness and just because you’re a Google product doesn’t mean that you can get away with bad performance. This one will always drive me nuts, but often a great tool to share with colleagues, particularly in SEO who may not be factoring in performance as to why their search results are what they are.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are plenty of options, such as &lt;a href=&quot;https://speedcurve.com/&quot;&gt;speedcurve.com&lt;/a&gt; or the ones listed in the comment section of &lt;a href=&quot;https://css-tricks.com/performance-tools/&quot;&gt;this CSSTricks article&lt;/a&gt;. The bottom line is that creating performant web pages and applications isn’t going anywhere. Optimizing images, only loading what we need, and relying on smarter browser caching techniques is very important, and these tools are quick to call out when you’re not. We as developers have a responsibility to ship users the best possible experiences in the most efficient ways, hopefully these tools can help you achieve that!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Apr 2017 21:50:24 +0000</pubDate>
+        <link>https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>2 Awesome Uses for Screaming Frog</title>
         <description>&lt;p&gt;Recently I’ve had to learn a &lt;em&gt;lot&lt;/em&gt; about SEO in a very short amount of time. I would say the biggest “gotcha” moment I’ve had is finding out about and using the &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog SEO Spider&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/screamingfrog.jpg&quot; alt=&quot;Screaming Frog SEO Spider&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/screamingfrog.jpg&quot; alt=&quot;Screaming Frog SEO Spider&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The Screaming Frog SEO Spider is a website crawler, that allows you to crawl websites’ URLs and fetch key onsite elements to analyse from an SEO perspective. Download for free, or purchase a licence for additional features.&lt;/p&gt;
@@ -30,7 +66,7 @@
 
 &lt;p&gt;Well of course you’re an incredible web developer who is the Michael Jordan of web page performance and you never have any slow loading pages ever, right? Well if for some reason you &lt;em&gt;might&lt;/em&gt; have some slow pages Screaming Frog can identify those immediately.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/response-time.jpg&quot; alt=&quot;Response Time&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/response-time.jpg&quot; alt=&quot;Screaming Frog SEO Spider Response Times&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All you need to do is filter by “Response Time” in the main crawl!&lt;/p&gt;
 
@@ -38,11 +74,11 @@
 
 &lt;p&gt;By default Screaming Frog is really awesome with images. If it finds it in your markup it will automatically make a request for that image, which rules! Now how about if you’re a radical web developer who lazy loads all their images so that their users don’t have to unnecessarily download each one &lt;sup&gt;2&lt;/sup&gt;? Well you’re in luck because theres a special part of Screaming Frog called “Custom Extractions”. All you need to do is add either an XPath or a regex for your images like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/extraction.jpg&quot; alt=&quot;Custom Extraction&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/extraction.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then we can see that we got all the images on the page, even though those were already lazy loaded:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/extraction-success.jpg&quot; alt=&quot;Custom Extraction&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/extraction-success.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction Success&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I didn’t really understand XPath (I still don’t), but I find its easiest to get the global images by simply placing &lt;code class=&quot;highlighter-rouge&quot;&gt;//img&lt;/code&gt;. Its even easier to get the value through regex, but this will suffice for most cases.&lt;/p&gt;
 
@@ -60,8 +96,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 23 Aug 2016 21:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
+        <link>https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
         
         
         <category>blog</category>
@@ -142,8 +178,8 @@ gulp.task('default', ['browser-sync', 'watch']);
 &lt;p&gt;You can see that what we’re doing is instead of letting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; handle the SCSS we are just compiling it ourselves then running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll rebuild&lt;/code&gt;. So once you have your &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; filled with this all you need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp&lt;/code&gt; and it will automatically spin up a live server and minify your SCSS. Neat!&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 May 2016 03:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
+        <link>https://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
         
         
         <category>blog</category>
