@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Conway Chicago-based Front End Developer</title>
-    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.</description>
-    <link>https://conwaydev.com/</link>
-    <atom:link href="https://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Nov 2017 23:07:21 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2017 23:07:21 +0000</lastBuildDate>
+    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.
+</description>
+    <link>http://conwaydev.com/</link>
+    <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 Jan 2018 04:59:54 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Jan 2018 04:59:54 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -38,8 +39,8 @@
 &lt;p&gt;There are plenty of options, such as &lt;a href=&quot;https://speedcurve.com/&quot;&gt;speedcurve.com&lt;/a&gt; or the ones listed in the comment section of &lt;a href=&quot;https://css-tricks.com/performance-tools/&quot;&gt;this CSSTricks article&lt;/a&gt;. The bottom line is that creating performant web pages and applications isn’t going anywhere. Optimizing images, only loading what we need, and relying on smarter browser caching techniques is very important, and these tools are quick to call out when you’re not. We as developers have a responsibility to ship users the best possible experiences in the most efficient ways, hopefully these tools can help you achieve that!&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Apr 2017 21:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</guid>
+        <link>http://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</guid>
         
         
         <category>blog</category>
@@ -96,8 +97,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 23 Aug 2016 21:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
+        <link>http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
         
         
         <category>blog</category>
@@ -178,8 +179,8 @@ gulp.task('default', ['browser-sync', 'watch']);
 &lt;p&gt;You can see that what we’re doing is instead of letting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; handle the SCSS we are just compiling it ourselves then running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll rebuild&lt;/code&gt;. So once you have your &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; filled with this all you need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp&lt;/code&gt; and it will automatically spin up a live server and minify your SCSS. Neat!&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 May 2016 03:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
+        <link>http://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
         
         
         <category>blog</category>
