@@ -6,9 +6,45 @@
 </description>
     <link>http://conwaydev.com/</link>
     <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jul 2018 04:52:03 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Jul 2018 04:52:03 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Jul 2018 05:36:01 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Jul 2018 05:36:01 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Why Greenhouse Rules</title>
+        <description>&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/2A0q1K0E2o0z1g1x2W1g/Screen%20Shot%202018-07-14%20at%2012.02.08%20AM.png&quot; alt=&quot;Greenhouse.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Greenhouse is an applicant tracking system and recruiting software designed to optimize your entire recruiting process. Find better candidates, conduct more focused interviews, and make data-driven hiring decisions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sometimes I think that hiring software is a super saturated market. I see companies like Lever, Jazz, Yello, and hundreds of others in the space and I can’t help but think “Why would you try to start to a recruiting software company?”. Granted all of the companies mentioned do an excellent job and serve the needs of their customers, but I want to speak from a developers point of view as to why I feel like Greenhouse is the best.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-their-api-docs-are-awesome&quot;&gt;1. Their API docs are awesome&lt;/h2&gt;
+
+&lt;p&gt;As a developer working with any third party service you’ll know that not all services keep an up to date docs, if they even have docs at all. Greenhouse are utilizing a generator called &lt;a href=&quot;https://github.com/lord/slate&quot;&gt;Slate&lt;/a&gt; that just looks fantastic and above all helps me find exactly what I’m looking for. You can find Greenhouse’s docs &lt;a href=&quot;https://developers.greenhouse.io/job-board.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/2b1k20270v0l2I1F112h/Screen%20Shot%202018-07-14%20at%2012.01.43%20AM.png&quot; alt=&quot;Greenhouse.io API docs&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-you-can-just-use-their-job-board-api-anywhere&quot;&gt;2. You can just use their Job Board API anywhere&lt;/h2&gt;
+
+&lt;p&gt;This to me is the kicker, in that their Job Board API allows for a fully customizable experience. Before getting the chance to use Greenhouse, I had been working on customizing &lt;a href=&quot;https://www.jazzhr.com/&quot;&gt;JazzHR&lt;/a&gt; career pages. Now JazzHR has a wonderful backend and a great administrative experience, but at the end of the day you’re adding CSS to their templates they’ve already made, not allowing any customization. With Greenhouse’s free-for-all Job Board API you can create a specific job board experience tailored to your company. With a company like Sprout Social who truly value the candidate experience, it was a must have to not necessary have a stock approach like companies such as JazzHR and Lever.&lt;/p&gt;
+
+&lt;p&gt;Another big side of their open-ended API is that prototyping is actually a possibility. Here’s an example of something I was able to whip up in minutes without it needing to live in our code base to show an experience where a user can filter jobs by location. This may also be a good time to mention that Sprout Social is &lt;a href=&quot;https://sproutsocial.com/careers/open-positions/#/&quot;&gt;hiring&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;aYZvLg&quot; data-default-tab=&quot;result&quot; data-user=&quot;conwaydev&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Sprout Social Open Positions Filter&quot; data-preview=&quot;true&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/conwaydev/pen/aYZvLg/&quot;&gt;Sprout Social Open Positions Filter&lt;/a&gt; by Justin Conway (&lt;a href=&quot;https://codepen.io/conwaydev&quot;&gt;@conwaydev&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The ability to simply show a list of jobs and their attributes on any web property is a super useful feature. All that said I think that Greenhouse have done a wonderful job with the ability of customization and creating solid API docs to help developers build out awesome experiences.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Jul 2018 21:50:24 +0000</pubDate>
+        <link>http://conwaydev.com/blog/2018/07/13/greenhouse.html</link>
+        <guid isPermaLink="true">http://conwaydev.com/blog/2018/07/13/greenhouse.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Performance Testing Tools</title>
