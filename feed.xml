@@ -6,13 +6,13 @@
 </description>
     <link>http://conwaydev.com/</link>
     <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jul 2018 05:36:01 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Jul 2018 05:36:01 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Jul 2018 05:41:47 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Jul 2018 05:41:47 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Why Greenhouse Rules</title>
-        <description>&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/2A0q1K0E2o0z1g1x2W1g/Screen%20Shot%202018-07-14%20at%2012.02.08%20AM.png&quot; alt=&quot;Greenhouse.io&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/2r2D40241m1s1b3M3m3y/greenhouse.jpg&quot; alt=&quot;Greenhouse.io&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Greenhouse is an applicant tracking system and recruiting software designed to optimize your entire recruiting process. Find better candidates, conduct more focused interviews, and make data-driven hiring decisions.&lt;/p&gt;
@@ -24,7 +24,7 @@
 
 &lt;p&gt;As a developer working with any third party service you’ll know that not all services keep an up to date docs, if they even have docs at all. Greenhouse are utilizing a generator called &lt;a href=&quot;https://github.com/lord/slate&quot;&gt;Slate&lt;/a&gt; that just looks fantastic and above all helps me find exactly what I’m looking for. You can find Greenhouse’s docs &lt;a href=&quot;https://developers.greenhouse.io/job-board.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/2b1k20270v0l2I1F112h/Screen%20Shot%202018-07-14%20at%2012.01.43%20AM.png&quot; alt=&quot;Greenhouse.io API docs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;https://dha4w82d62smt.cloudfront.net/items/0E2w2S3q1u1x2s3M1Y3o/API.jpg&quot; alt=&quot;Greenhouse.io API docs&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2-you-can-just-use-their-job-board-api-anywhere&quot;&gt;2. You can just use their Job Board API anywhere&lt;/h2&gt;
 
