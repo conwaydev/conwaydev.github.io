@@ -1,45 +1,24 @@
 'use strict';
 
-const child = require('child_process');
-const browserSync = require('browser-sync').create();
-
 const gulp = require('gulp');
-const gutil = require('gulp-util');
-const sass = require('gulp-sass');
+const tailwindcss = require('tailwindcss');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+const uncss = require('postcss-uncss');
 const svgSprite = require('gulp-svg-sprite');
 
-const siteRoot = '_site';
-const cssFiles = '_scss/**/*.scss';
-
-gulp.task('jekyll', () => {
-	const jekyll = child.spawn('jekyll', ['build',
-		'--watch',
-		'--incremental',
-		'--drafts'
-	]);
-
-	const jekyllLogger = (buffer) => {
-		buffer.toString()
-			.split(/\n/)
-			.forEach((message) => gutil.log('Jekyll: ' + message));
-	};
-
-	jekyll.stdout.on('data', jekyllLogger);
-	jekyll.stderr.on('data', jekyllLogger);
-});
-
 gulp.task('scss', ()=> {
-	const processors = [
-		autoprefixer({browsers: ['last 2 versions']}),
-		cssnano(),
-	];
-
-	return gulp.src(cssFiles)
-		.pipe(sass())
-		.pipe(postcss(processors))
+	return gulp.src('css/tailwind.css')
+		.pipe(postcss([
+			tailwindcss('tailwind.js'),
+            autoprefixer(),
+            cssnano(),
+            uncss({
+                html: ['./_site/index.html', "./_site/blog/**/*.html"],
+                ignore: [/.*wf-active.*/, '#twitter-widget-0']
+			})
+        ]))
 		.pipe(gulp.dest('./_includes/css'));
 });
 
@@ -48,31 +27,19 @@ gulp.task('svg', () => {
 		.pipe(svgSprite({
 			shape: {
 				dimension: {
-					maxWidth : 40,
-					maxHeight: 40
+					maxWidth : 20,
+					maxHeight: 20
 				},
 				spacing : {
 					padding: 10
 				},
-				dest: 'intermediate-svg'
+				dest: 'svg'
 			},
 			mode : {
 				symbol: true
 			}
 		}))
-		.pipe(gulp.dest('./_includes/svg'));
-});
-
-gulp.task('serve', () => {
-	browserSync.init({
-		files: [siteRoot + '/**'],
-		port: 4000,
-		server: {
-			baseDir: siteRoot
-		}
-	});
-
-	gulp.watch('./_scss/**/*.scss', ['scss']);
+		.pipe(gulp.dest('./assets/svg'));
 });
 
 gulp.task('default', ['svg', 'scss']);

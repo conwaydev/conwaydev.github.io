@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Justin Conway Chicago-based Front End Developer</title>
-    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.
-</description>
+    <title>Justin Conway • Chicago-based Front End Developer</title>
+    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.</description>
     <link>http://conwaydev.com/</link>
     <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jul 2018 05:41:47 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Jul 2018 05:41:47 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2019 04:33:22 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2019 04:33:22 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -87,7 +86,7 @@
         <title>2 Awesome Uses for Screaming Frog</title>
         <description>&lt;p&gt;Recently I’ve had to learn a &lt;em&gt;lot&lt;/em&gt; about SEO in a very short amount of time. I would say the biggest “gotcha” moment I’ve had is finding out about and using the &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog SEO Spider&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/screamingfrog.jpg&quot; alt=&quot;Screaming Frog SEO Spider&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/screamingfrog.jpg&quot; alt=&quot;Screaming Frog SEO Spider&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The Screaming Frog SEO Spider is a website crawler, that allows you to crawl websites’ URLs and fetch key onsite elements to analyse from an SEO perspective. Download for free, or purchase a licence for additional features.&lt;/p&gt;
@@ -103,7 +102,7 @@
 
 &lt;p&gt;Well of course you’re an incredible web developer who is the Michael Jordan of web page performance and you never have any slow loading pages ever, right? Well if for some reason you &lt;em&gt;might&lt;/em&gt; have some slow pages Screaming Frog can identify those immediately.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/response-time.jpg&quot; alt=&quot;Screaming Frog SEO Spider Response Times&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/response-time.jpg&quot; alt=&quot;Screaming Frog SEO Spider Response Times&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;All you need to do is filter by “Response Time” in the main crawl!&lt;/p&gt;
 
@@ -111,11 +110,11 @@
 
 &lt;p&gt;By default Screaming Frog is really awesome with images. If it finds it in your markup it will automatically make a request for that image, which rules! Now how about if you’re a radical web developer who lazy loads all their images so that their users don’t have to unnecessarily download each one &lt;sup&gt;2&lt;/sup&gt;? Well you’re in luck because theres a special part of Screaming Frog called “Custom Extractions”. All you need to do is add either an XPath or a regex for your images like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/extraction.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/extraction.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then we can see that we got all the images on the page, even though those were already lazy loaded:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/extraction-success.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction Success&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/extraction-success.jpg&quot; alt=&quot;Screaming Frog SEO Spider Custom Extraction Success&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I didn’t really understand XPath (I still don’t), but I find its easiest to get the global images by simply placing &lt;code class=&quot;highlighter-rouge&quot;&gt;//img&lt;/code&gt;. Its even easier to get the value through regex, but this will suffice for most cases.&lt;/p&gt;
 
