@@ -1,13 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Justin Conway • Chicago-based Front End Developer</title>
-    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.</description>
-    <link>http://conwaydev.com/</link>
-    <atom:link href="http://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Jan 2019 04:33:22 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Jan 2019 04:33:22 +0000</lastBuildDate>
+    <title>Justin Conway Chicago-based Front End Developer</title>
+    <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.
+</description>
+    <link>https://conwaydev.com/</link>
+    <atom:link href="https://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Feb 2020 02:30:31 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2020 02:30:31 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Top 5 Favorite Album Covers</title>
+        <description>&lt;p&gt;I say that I hate music a &lt;em&gt;lot&lt;/em&gt;. Sometimes I actually mean it, but to be totally honest the only form of entertainment I enjoy is anything and everything about rock and roll. The only movies I enjoy are concert films and documentaries about rock and roll in 1970s Los Angeles. The only books I enjoy are biographies of Twentieth century country music recording artists and books on The Beatles. I’ve been thinking about this a lot recently about what my favorite album covers are (not necessarily my favorite albums are, &lt;a href=&quot;https://codepen.io/conwaydev/full/EgLRGV&quot;&gt;I’ve talked about that&lt;/a&gt;), so heres a list of some covers I think about often.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-rolling-stones---exile-on-main-street&quot;&gt;1. Rolling Stones - Exile On Main Street&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;block border border-gray-200&quot; loading=&quot;lazy&quot; src=&quot;/assets/img/albums/exile-on-main-street.jpg&quot; alt=&quot;Exile On Main Street&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This album cover is SO rad! Each image on the cover is like a miniature movie. I’ve spent hours just gazing at it, and I think theres so much myth and mystery to this period of the Rolling Stones career. The drugs, France, Gram Parsons, all of it. This is my favorite time of this band, and certainly one of my favorite record covers. The cover was designed by &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Van_Hamersveld&quot;&gt;John Van Hamersveld&lt;/a&gt; who designed so many iconic posters and records. I love this quote from &lt;a href=&quot;https://www.loudersound.com/features/the-story-behind-the-rolling-stones-exile-on-main-street-album-artwork&quot;&gt;Louder&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;border-l-4 pl-2 border-gray-400 text-gray-600&quot;&gt;Although it’s widely assumed to be a collage, the main shot was actually a photo of the wall of a Route 66 tattoo parlour, taken by Frank as he passed through in 1950. To underline the key point – that the disreputable, drug-addled and tax-exiled Stones were as much outsiders as the circus freaks – the reverse of the sleeve had shots of the band members assembled in a similar collage effect. When Stones manager Marshall Chess asked Van Hamersveld to select an image from the cover of promotional purposes, there was one obvious choice. “I said: ‘Why don’t we take the guy with the balls in his mouth?’” the designer recalls. “That is the most amazing photo I’ve ever seen.”&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-charles-mingus---the-black-saint-and-the-sinner-lady&quot;&gt;2. Charles Mingus - The Black Saint and The Sinner Lady&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;block border border-gray-200&quot; loading=&quot;lazy&quot; src=&quot;/assets/img/albums/black-sinner-saint.jpg&quot; alt=&quot;The Black Saint and The Sinner Lady&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is actually why I wanted to write about this. I think about this album cover all the time, it may be my favorite in this list. Everything about it is awesome, but the type is &lt;em&gt;so perfect&lt;/em&gt;. The poem! Him ripping that pipe! I’m not a jazz person by any means and I don’t want to come off as a pretentious guy putting a Mingus record on a list, but this record cover is undeniably beautiful. The cover photograph was taken by Bob Ghiraldini who took a lot of famous jazz photographs. Most of the Impulse! Record releases have extraordinary covers, but this one is absolutely my favorite.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-amen-dunes---freedom&quot;&gt;3. Amen Dunes - Freedom&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;block border border-gray-200&quot; loading=&quot;lazy&quot; src=&quot;/assets/img/albums/amen-dunes-freedom.jpg&quot; alt=&quot;Freedom&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was another record that inspired me to make this list. This is a newer release on Sacred Bones Records, and I wasn’t very familar with this band, but I am obsessed with this record cover. He looks so FLY and it reminds me of a movie. The album’s photography and layout was done by &lt;a href=&quot;https://www.tuomaskorpijaakko.work/&quot;&gt;Tuomas Korpijaakko&lt;/a&gt; who had done the previous Amen Dunes records. I was always a fan of Sacred Bones Salinger-esque consistency with their releases, but I’m all for breaking out of that when a record cover is this good.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-big-star---radio-city&quot;&gt;4. Big Star - Radio City&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;block border border-gray-200&quot; loading=&quot;lazy&quot; src=&quot;/assets/img/albums/radio-city.jpg&quot; alt=&quot;Radio City&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only an incredible record, but such a beautiful cover. This was my introduction to the photography of William Eggleston and it was a huge realization that so many artists that I love have used his work (one of my other favorites being the cover of &lt;a href=&quot;https://en.wikipedia.org/wiki/Tanglewood_Numbers&quot;&gt;Tanglewood Numbers&lt;/a&gt; by the Silver Jews). The red in the photo is so shocking and this is another one I’ve ZONED on for long periods of time. In an article by &lt;a href=&quot;https://www.theguardian.com/music/2010/jan/14/william-egglestone-rock-photography&quot;&gt;The Guardian&lt;/a&gt; Eggleston was quoted&lt;/p&gt;
+
+&lt;blockquote class=&quot;border-l-4 pl-2 border-gray-400 text-gray-600&quot;&gt;&quot;It's just a picture I offered out of the blue,&quot; William Eggleston says of The Red Ceiling, and its appearance on the cover of Big Star's second album. &quot;I ­happened to run into Alex [Chilton], and he said, 'I'd love to use it.' I said, 'You're welcome to.' There's no more to that story&quot;&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;5-louvin-brothers---satan-is-real&quot;&gt;5. Louvin Brothers - Satan Is Real&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;block border border-gray-200&quot; loading=&quot;lazy&quot; src=&quot;/assets/img/albums/satan-is-real.jpg&quot; alt=&quot;Satan Is Real&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Louvin Brothers are so incredible, if you don’t know much about their history I highly recommend checking out the &lt;a href=&quot;https://cocaineandrhinestones.com/louvin-brothers-running-wild&quot;&gt;Cocaine and Rhinestones episode&lt;/a&gt; episode on them, its fascinating. This album cover is just the best. The type is so perfect! The cover was designed by by Ira Louvin and I love the idea of them constructing the set for it. This isn’t my favorite Louvin Brothers recording, but the cover is just unbelievable.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jan 2020 03:50:24 +0000</pubDate>
+        <link>https://conwaydev.com/blog/2020/01/03/top-5-favorite-album-covers.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2020/01/03/top-5-favorite-album-covers.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>On-going Portfolio Update</title>
+        <description>&lt;p&gt;I don’t know where it comes from, but any time I think “I should blog about that” it’s quickly followed by, “I should actually redo my entire portfolio, finally add case studies, and use a completely different technology stack”. I feel like I’m not alone in that sentiment and its SO unnecessary, but it’s there.&lt;/p&gt;
+
+&lt;p&gt;Well I’m going to do something about, and that something is blogging about me transforming the portfolio. There are so many cool and interesting technologies in the front-end space now that I think its high time I start playing around with them. Theres a ton of decisions to make along the way but I’m going to start with creating an actual CMS rather than markdown files.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-cms-will-make-me-write-blog-posts-right&quot;&gt;A CMS will make me write blog posts right?&lt;/h2&gt;
+
+&lt;p&gt;I’ve been meaning to look into &lt;a href=&quot;https://www.netlifycms.org/&quot;&gt;Netlify CMS&lt;/a&gt;. In my mind, creating a space to write thats not in code will ideally inspire me to write more. Now this is super unlikely, but right now I’m feeling it. So thats what I did! I went ahead and integrated Netlify with my existing set up on GitHub pages. My next steps are definitely going to start migrating the actual “hosting” to Netlify because of how AWESOME the tooling is, but this is the first step.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-i-have-an-end-goal&quot;&gt;Do I have an “End Goal”?&lt;/h2&gt;
+
+&lt;p&gt;Not &lt;em&gt;really&lt;/em&gt;, but I would like a “fancier stack”, and a place for me to just &lt;em&gt;write&lt;/em&gt;, not look at the code that supports this portfolio (this immediately makes me want to redo everything or just ignore what I wanted to write about). There are some things I’d definitely like to accomplish:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use either &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; or &lt;a href=&quot;https://www.11ty.io/&quot;&gt;Eleventy&lt;/a&gt; as a static site generator
+    &lt;ul&gt;
+      &lt;li&gt;This site is currently &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; based which is great, but I want to use the cool new shiny stuff!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Actual case studies
+    &lt;ul&gt;
+      &lt;li&gt;This is something I’ve said forever, but its so rewarding seeing other developers will well written problem/ solution based case studies and the actual work that went into it&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Along the way updating the design and using cool new APIs like native lazy loading (are you _kidding_ me?!) and really fine tune the performance.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-this-a-good-idea&quot;&gt;Is this a good idea?&lt;/h2&gt;
+
+&lt;p&gt;Probably not! I think its super unhealthy behavior to think about a portfolio this much that gets zero traffic and especially when you’re not looking for a job, but I really admire when I see developers with fancy/ up to date websites. I‘ll be creating new posts as this continues and get into more technical parts as they come up. Its an opportunity to “learn out loud”!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Aug 2019 01:33:07 +0000</pubDate>
+        <link>https://conwaydev.com/blog/2019/08/28/on-going-portfolio-update.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2019/08/28/on-going-portfolio-update.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Why Greenhouse Rules</title>
@@ -37,8 +127,8 @@
 &lt;p&gt;The ability to simply show a list of jobs and their attributes on any web property is a super useful feature. All that said I think that Greenhouse have done a wonderful job with the ability of customization and creating solid API docs to help developers build out awesome experiences.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Jul 2018 21:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2018/07/13/greenhouse.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2018/07/13/greenhouse.html</guid>
+        <link>https://conwaydev.com/blog/2018/07/13/greenhouse.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2018/07/13/greenhouse.html</guid>
         
         
         <category>blog</category>
@@ -53,29 +143,23 @@
 
 &lt;h3 id=&quot;webpagetestorg&quot;&gt;WebPageTest.org&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/webpage.jpg|/assets/img/webpage@2x.jpg&quot; alt=&quot;WebPageTest.org&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&quot;https://www.webpagetest.org/&quot;&gt;WebPageTest.org&lt;/a&gt; is easily the best (free) performance tool I’ve used. The testing is so thorough and the biggest thing that I appreciate is that they have an API, so you can programmatically run performance tests, allowing for awesome tooling like &lt;a href=&quot;https://speedtracker.org/&quot;&gt;speedtracker.org&lt;/a&gt;. There are also forums filled with really intelligent people who know way more than me about web performance. I personally like to use the visual comparison tool when I am creating a new feature in order to test performance against the current production environment, just in case I’m introducing any new performance regressions.&lt;/p&gt;
 
 &lt;h3 id=&quot;gtmetrixcom&quot;&gt;GTMetrix.com&lt;/h3&gt;
-
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/gtmetrix.jpg|/assets/img/gtmetrix@2x.jpg&quot; alt=&quot;GTMetrix.com&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://gtmetrix.com/&quot;&gt;GTMetrix&lt;/a&gt; was actually my first introduction to web performance testing. There was a time when I worked for a small web agency and when pitching jobs to clients, things like performance or accessibility weren’t part of the scope, often times it was “How can we get this in the hands to our client as fast and cheap as possible”. I didn’t know any better, but at that time I started getting the hunch that maybe putting 40 different JavaScript files on a page wasn’t such a great idea. My coworker recommended me this tool that showed you “everything you were doing wrong with web development”. It quickly becoming my bargaining chip. I was able to show stakeholders, and eventually clients an actual number indicating that performance was something we needed to consider up front, not after the fact. I still rely heavily on GTMetrix, I really appreciate their comparison report, and also their merging of both PageSpeed scores and YSlow. Its very validating when working on a larger scale application to score high on it.&lt;/p&gt;
 
 &lt;h3 id=&quot;google-pagespeed-insights&quot;&gt;Google PageSpeed Insights&lt;/h3&gt;
 
-&lt;p&gt;&lt;img class=&quot;b-lazy&quot; src=&quot;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-src=&quot;/assets/img/pagespeed.jpg|/assets/img/pagespeed@2x.jpg&quot; alt=&quot;Google PageSpeed Insights&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;The last tool I’d like to share is Google’s own &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;. The irony of using this tool is running through various Google sites and services and seeing that not even they can get a perfect 100. I believe that their goal is raise awareness and just because you’re a Google product doesn’t mean that you can get away with bad performance. This one will always drive me nuts, but often a great tool to share with colleagues, particularly in SEO who may not be factoring in performance as to why their search results are what they are.&lt;/p&gt;
 
-&lt;hr /&gt;
-
 &lt;p&gt;There are plenty of options, such as &lt;a href=&quot;https://speedcurve.com/&quot;&gt;speedcurve.com&lt;/a&gt; or the ones listed in the comment section of &lt;a href=&quot;https://css-tricks.com/performance-tools/&quot;&gt;this CSSTricks article&lt;/a&gt;. The bottom line is that creating performant web pages and applications isn’t going anywhere. Optimizing images, only loading what we need, and relying on smarter browser caching techniques is very important, and these tools are quick to call out when you’re not. We as developers have a responsibility to ship users the best possible experiences in the most efficient ways, hopefully these tools can help you achieve that!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update (01/03/20):&lt;/strong&gt; This is a pretty outdated post, but at Sprout Social we have been utilizing &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Google Lighthouse&lt;/a&gt; for our performance monitoring. It offers fantastic metrics as well as great developer tools to integrate with our tech set up.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 26 Apr 2017 21:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</guid>
+        <pubDate>Wed, 26 Apr 2017 21:50:00 +0000</pubDate>
+        <link>https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2017/04/26/performance-testing-tools.html</guid>
         
         
         <category>blog</category>
@@ -132,8 +216,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 23 Aug 2016 21:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
+        <link>https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2016/08/23/screamingfrog-seo-tool.html</guid>
         
         
         <category>blog</category>
@@ -214,8 +298,8 @@ gulp.task('default', ['browser-sync', 'watch']);
 &lt;p&gt;You can see that what we’re doing is instead of letting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; handle the SCSS we are just compiling it ourselves then running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll rebuild&lt;/code&gt;. So once you have your &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; filled with this all you need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp&lt;/code&gt; and it will automatically spin up a live server and minify your SCSS. Neat!&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 May 2016 03:50:24 +0000</pubDate>
-        <link>http://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
-        <guid isPermaLink="true">http://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
+        <link>https://conwaydev.com/blog/2016/05/21/using-gulp.html</link>
+        <guid isPermaLink="true">https://conwaydev.com/blog/2016/05/21/using-gulp.html</guid>
         
         
         <category>blog</category>

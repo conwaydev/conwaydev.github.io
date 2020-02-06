@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Why Greenhouse Rules | Justin Conway Chicago-based Front End Developer</title>
-  <link rel="canonical" href="https://conwaydev.com/blog/2018/07/13/greenhouse.html">
-  <meta name="description" content="An introduction to what I feel is the best hiring software that I’ve used so far.">
+  <title>On-going Portfolio Update | Justin Conway Chicago-based Front End Developer</title>
+  <link rel="canonical" href="https://conwaydev.com/blog/2019/08/28/on-going-portfolio-update.html">
+  <meta name="description" content="Why can’t I just write a blog post without reinventing the universe/ my portfolio?">
   <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.gstatic.com/">
   <link href="https://fonts.googleapis.com/css?family=Poppins:600|Roboto+Mono:400,700&display=swap" rel="stylesheet">
@@ -32,38 +32,44 @@
 <main id="content">
   <article class="max-w-6xl mx-auto px-4 lg:py-8">
   <h1 class="my-0">
-    Why Greenhouse Rules
+    On-going Portfolio Update
   </h1>
 
-  <time class="block w-full" datetime="2018-07-13 21:50:24 +0000">
-    Jul 13, 2018
+  <time class="block w-full" datetime="2019-08-28 01:33:07 +0000">
+    Aug 28, 2019
   </time>
 
   <div class="max-w-3xl mt-4 rich-text">
-    <p><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://dha4w82d62smt.cloudfront.net/items/2r2D40241m1s1b3M3m3y/greenhouse.jpg" alt="Greenhouse.io" /></p>
+    <p>I don’t know where it comes from, but any time I think “I should blog about that” it’s quickly followed by, “I should actually redo my entire portfolio, finally add case studies, and use a completely different technology stack”. I feel like I’m not alone in that sentiment and its SO unnecessary, but it’s there.</p>
 
-<blockquote>
-  <p>Greenhouse is an applicant tracking system and recruiting software designed to optimize your entire recruiting process. Find better candidates, conduct more focused interviews, and make data-driven hiring decisions.</p>
-</blockquote>
+<p>Well I’m going to do something about, and that something is blogging about me transforming the portfolio. There are so many cool and interesting technologies in the front-end space now that I think its high time I start playing around with them. Theres a ton of decisions to make along the way but I’m going to start with creating an actual CMS rather than markdown files.</p>
 
-<p>Sometimes I think that hiring software is a super saturated market. I see companies like Lever, Jazz, Yello, and hundreds of others in the space and I can’t help but think “Why would you try to start to a recruiting software company?”. Granted all of the companies mentioned do an excellent job and serve the needs of their customers, but I want to speak from a developers point of view as to why I feel like Greenhouse is the best.</p>
+<h2 id="a-cms-will-make-me-write-blog-posts-right">A CMS will make me write blog posts right?</h2>
 
-<h2 id="1-their-api-docs-are-awesome">1. Their API docs are awesome</h2>
+<p>I’ve been meaning to look into <a href="https://www.netlifycms.org/">Netlify CMS</a>. In my mind, creating a space to write thats not in code will ideally inspire me to write more. Now this is super unlikely, but right now I’m feeling it. So thats what I did! I went ahead and integrated Netlify with my existing set up on GitHub pages. My next steps are definitely going to start migrating the actual “hosting” to Netlify because of how AWESOME the tooling is, but this is the first step.</p>
 
-<p>As a developer working with any third party service you’ll know that not all services keep an up to date docs, if they even have docs at all. Greenhouse are utilizing a generator called <a href="https://github.com/lord/slate">Slate</a> that just looks fantastic and above all helps me find exactly what I’m looking for. You can find Greenhouse’s docs <a href="https://developers.greenhouse.io/job-board.html">here</a>.</p>
+<h2 id="do-i-have-an-end-goal">Do I have an “End Goal”?</h2>
 
-<p><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://dha4w82d62smt.cloudfront.net/items/0E2w2S3q1u1x2s3M1Y3o/API.jpg" alt="Greenhouse.io API docs" /></p>
+<p>Not <em>really</em>, but I would like a “fancier stack”, and a place for me to just <em>write</em>, not look at the code that supports this portfolio (this immediately makes me want to redo everything or just ignore what I wanted to write about). There are some things I’d definitely like to accomplish:</p>
 
-<h2 id="2-you-can-just-use-their-job-board-api-anywhere">2. You can just use their Job Board API anywhere</h2>
+<ul>
+  <li>Use either <a href="https://www.gatsbyjs.org/">Gatsby</a> or <a href="https://www.11ty.io/">Eleventy</a> as a static site generator
+    <ul>
+      <li>This site is currently <a href="https://jekyllrb.com/">Jekyll</a> based which is great, but I want to use the cool new shiny stuff!</li>
+    </ul>
+  </li>
+  <li>Actual case studies
+    <ul>
+      <li>This is something I’ve said forever, but its so rewarding seeing other developers will well written problem/ solution based case studies and the actual work that went into it</li>
+    </ul>
+  </li>
+</ul>
 
-<p>This to me is the kicker, in that their Job Board API allows for a fully customizable experience. Before getting the chance to use Greenhouse, I had been working on customizing <a href="https://www.jazzhr.com/">JazzHR</a> career pages. Now JazzHR has a wonderful backend and a great administrative experience, but at the end of the day you’re adding CSS to their templates they’ve already made, not allowing any customization. With Greenhouse’s free-for-all Job Board API you can create a specific job board experience tailored to your company. With a company like Sprout Social who truly value the candidate experience, it was a must have to not necessary have a stock approach like companies such as JazzHR and Lever.</p>
+<p>Along the way updating the design and using cool new APIs like native lazy loading (are you _kidding_ me?!) and really fine tune the performance.</p>
 
-<p>Another big side of their open-ended API is that prototyping is actually a possibility. Here’s an example of something I was able to whip up in minutes without it needing to live in our code base to show an experience where a user can filter jobs by location. This may also be a good time to mention that Sprout Social is <a href="https://sproutsocial.com/careers/open-positions/#/">hiring</a>!</p>
+<h2 id="is-this-a-good-idea">Is this a good idea?</h2>
 
-<p data-height="265" data-theme-id="dark" data-slug-hash="aYZvLg" data-default-tab="result" data-user="conwaydev" data-embed-version="2" data-pen-title="Sprout Social Open Positions Filter" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/conwaydev/pen/aYZvLg/">Sprout Social Open Positions Filter</a> by Justin Conway (<a href="https://codepen.io/conwaydev">@conwaydev</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
-
-<p>The ability to simply show a list of jobs and their attributes on any web property is a super useful feature. All that said I think that Greenhouse have done a wonderful job with the ability of customization and creating solid API docs to help developers build out awesome experiences.</p>
+<p>Probably not! I think its super unhealthy behavior to think about a portfolio this much that gets zero traffic and especially when you’re not looking for a job, but I really admire when I see developers with fancy/ up to date websites. I‘ll be creating new posts as this continues and get into more technical parts as they come up. Its an opportunity to “learn out loud”!</p>
 
   </div>
 </article>
