@@ -3,10 +3,10 @@
   <channel>
     <title>Justin Conway Chicago-based front-end developer</title>
     <description>Justin Conway is a Chicago-based Front End Developer passionate about the web and pork.</description>
-    <link>https://conwaydev.com/</link>
-    <atom:link href="https://conwaydev.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jan 2021 18:39:54 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Jan 2021 18:39:54 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Jan 2021 18:42:09 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Jan 2021 18:42:09 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -48,8 +48,8 @@
 &lt;p&gt;The Louvin Brothers are so incredible, if you don’t know much about their history I highly recommend checking out the &lt;a href=&quot;https://cocaineandrhinestones.com/louvin-brothers-running-wild&quot;&gt;Cocaine and Rhinestones episode&lt;/a&gt; episode on them, its fascinating. This album cover is just the best. The type is so perfect! The cover was designed by by Ira Louvin and I love the idea of them constructing the set for it. This isn’t my favorite Louvin Brothers recording, but the cover is just unbelievable.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 Jan 2020 03:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2020/01/03/top-5-favorite-album-covers.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2020/01/03/top-5-favorite-album-covers.html</guid>
+        <link>http://localhost:4000/writing/2020/01/03/top-5-favorite-album-covers.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2020/01/03/top-5-favorite-album-covers.html</guid>
         
         
         <category>writing</category>
@@ -90,8 +90,8 @@
 &lt;p&gt;Probably not! I think its super unhealthy behavior to think about a portfolio this much that gets zero traffic and especially when you’re not looking for a job, but I really admire when I see developers with fancy/ up to date websites. I‘ll be creating new posts as this continues and get into more technical parts as they come up. Its an opportunity to “learn out loud”!&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Aug 2019 01:33:07 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2019/08/28/on-going-portfolio-update.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2019/08/28/on-going-portfolio-update.html</guid>
+        <link>http://localhost:4000/writing/2019/08/28/on-going-portfolio-update.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2019/08/28/on-going-portfolio-update.html</guid>
         
         
         <category>writing</category>
@@ -126,8 +126,8 @@
 &lt;p&gt;The ability to simply show a list of jobs and their attributes on any web property is a super useful feature. All that said I think that Greenhouse have done a wonderful job with the ability of customization and creating solid API docs to help developers build out awesome experiences.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 Jul 2018 21:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2018/07/13/greenhouse.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2018/07/13/greenhouse.html</guid>
+        <link>http://localhost:4000/writing/2018/07/13/greenhouse.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2018/07/13/greenhouse.html</guid>
         
         
         <category>writing</category>
@@ -157,8 +157,8 @@
 &lt;p&gt;&lt;strong&gt;Update (01/03/20):&lt;/strong&gt; This is a pretty outdated post, but at Sprout Social we have been utilizing &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Google Lighthouse&lt;/a&gt; for our performance monitoring. It offers fantastic metrics as well as great developer tools to integrate with our tech set up.&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Apr 2017 21:50:00 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2017/04/26/performance-testing-tools.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2017/04/26/performance-testing-tools.html</guid>
+        <link>http://localhost:4000/writing/2017/04/26/performance-testing-tools.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2017/04/26/performance-testing-tools.html</guid>
         
         
         <category>writing</category>
@@ -215,8 +215,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 23 Aug 2016 21:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2016/08/23/screamingfrog-seo-tool.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2016/08/23/screamingfrog-seo-tool.html</guid>
+        <link>http://localhost:4000/writing/2016/08/23/screamingfrog-seo-tool.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2016/08/23/screamingfrog-seo-tool.html</guid>
         
         
         <category>writing</category>
@@ -297,8 +297,8 @@ gulp.task('default', ['browser-sync', 'watch']);
 &lt;p&gt;You can see that what we’re doing is instead of letting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; handle the SCSS we are just compiling it ourselves then running &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll rebuild&lt;/code&gt;. So once you have your &lt;code class=&quot;highlighter-rouge&quot;&gt;gulpfile.js&lt;/code&gt; filled with this all you need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp&lt;/code&gt; and it will automatically spin up a live server and minify your SCSS. Neat!&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 May 2016 03:50:24 +0000</pubDate>
-        <link>https://conwaydev.com/writing/2016/05/21/using-gulp.html</link>
-        <guid isPermaLink="true">https://conwaydev.com/writing/2016/05/21/using-gulp.html</guid>
+        <link>http://localhost:4000/writing/2016/05/21/using-gulp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/writing/2016/05/21/using-gulp.html</guid>
         
         
         <category>writing</category>
