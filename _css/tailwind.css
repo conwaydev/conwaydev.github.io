@@ -29,11 +29,6 @@ li + li {
     @apply mt-4;
 }
 
-[class^='lg:text-'], 
-[class*='lg:text-']{
-    @apply leading-loose;
-}
-
 header .sr-only:focus {
     height: auto;
     width: auto;
