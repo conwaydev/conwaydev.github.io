@@ -1,27 +1,33 @@
-<header class="sticky bg-white pin-t pin-l pin-r py-4 font-normal relative">
+<header class="sticky top-0 lg:top-2 lg:mt-2 dark:lg:mt-0 left-0 right-0 text-xl z-20">
     <a href="#content" class="sr-only absolute pin-t pin-l bg-black hover:text-blue text-white p-2">
         Skip to main content
     </a>
 
-    <div class="max-w-7xl mx-auto px-4 lg:flex lg:items-center">
-        <a class="flex items-center no-underline text-black hover:text-blue-600 p-2" href="/">
-            <svg class="block mr-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 174 172"><path d="M0 0v172c47.5 0 86-38.5 86-86V0H0zM88 86c0 47.5 38.5 86 86 86V0c-47.5 0-86 38.5-86 86z"/></svg>
+    <div class="max-w-7xl mx-auto py-4 bg-white dark:bg-zinc-800 text-neutral-900 dark:text-slate-50 lg:rounded-md">
+        <div class="px-6 lg:px-4 flex flex-wrap lg:flex-nowrap items-center">
+            <a class="flex items-center no-underline p-2 font-sans text-neutral-900 hover:text-neutral-950 dark:text-slate-50 dark:hover:text-slate-100" href="/">
+                <svg class="block mr-2 text-yellow-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 174 172"><path d="M0 0v172c47.5 0 86-38.5 86-86V0H0zM88 86c0 47.5 38.5 86 86 86V0c-47.5 0-86 38.5-86 86z"/></svg>
+    
+                <span class="block">Justin Conway</span>
+    
+                <span class="hidden lg:block">&nbsp;•&nbsp;Engineering Manager</span>
+            </a>
 
-            <span class="poppins block">Justin Conway</span>
-
-            <span class="hidden lg:block">&nbsp;•&nbsp;Engineering Manager</span>
-        </a>
-
-        <nav class="hidden lg:block ml-auto">
-            <ul class="list-none flex">
-                {% for link in site.navigation %}
-                    <li class="ml-4 mt-0">
-                        <a class="text-blue-700 hover:text-blue-800 p-2" href="{{link.url}}">
-                            {{link.title}}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </nav>
+            <button class="block lg:hidden font-mono underline ml-auto p-2 js-mobile-button">
+                Menu
+            </button>
+    
+            <nav class="hidden lg:block flex-none lg:ml-auto mt-2 lg:mt-0 w-full lg:w-auto">
+                <ul class="list-none flex mt-0 pl-0">
+                    {% for link in site.navigation %}
+                        <li class="{% if forloop.first %}{% else %}ml-4{% endif %} mt-0">
+                            <a class="font-mono underline block p-2 text-neutral-900 hover:text-neutral-950 dark:text-slate-50 dark:hover:text-slate-100" href="{{link.url}}">
+                                {{link.title}}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>

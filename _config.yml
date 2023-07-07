@@ -1,5 +1,5 @@
 ---
-title: Justin Conway Chicago-based front-end developer
+title: Justin Conway Chicago-based Engineering Manager
 timezone: UTC
 collections:
   posts:
@@ -9,8 +9,7 @@ collections:
     title: Uploads
     output: true
 email: justin@conwaydev.com
-description: Justin Conway is a Chicago-based Front End Developer passionate about
-  the web and pork.
+description: Justin Conway is a Chicago-based Engineering Manager passionate about the web and pork.
 url: https://conwaydev.com
 twitter_username: conwaydev
 github_username: conwaydev
@@ -76,3 +75,4 @@ exclude:
 - yarn.lock
 - tailwind.config.js
 - postcss.config.js
+- cache/

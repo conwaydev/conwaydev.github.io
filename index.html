@@ -2,78 +2,95 @@
 layout: default
 ---
 
-<section class="max-w-7xl mx-auto flex flex-wrap lg:items-center lg:flex-row-reverse">
-  <div class="w-full lg:w-7/12 px-4">
-    <div class="relative">
-      <figure>
-        <img class="db w-full h-auto relative z-10" src="assets/img/new-resized.jpg" alt="Justin Conway" height="933" width="1400" />
-        <figcaption class="text-xs mt-4">
-          <p>Photo by <a href="http://www.molljean.com/about" target="_blank" class="text-blue-700 hover:text-blue-800">Moll Nye</a></p>
-        </figcaption>
-      </figure>
+<section
+  class="py-16 lg:py-52 dark:lg:pt-32 bg-blue-500 dark:bg-neutral-900 text-slate-50"
+>
+  <div class="max-w-7xl mx-auto">
+    <div class="px-8 lg:px-0">
+      <h1 class="text-3xl lg:text-7xl font-bold font-sans tracking-tight">
+        <span class="wave">👋</span> Howdy! My name is Justin
+      </h1>
+      <p class="text-xl lg:text-3xl mt-4 lg:mt-8">
+        I am a Senior Engineering Manager at
+        <a
+          href="https://sproutsocial.com"
+          class="underline"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Sprout&nbsp;Social</a
+        >. I've spent the last fifteen years solving problems with web
+        technologies. I am always interested in finding new and innovative ways
+        to build web&nbsp;products.
+      </p>
+      <p class="text-xl lg:text-3xl mt-4 lg:mt-8">
+        Connect with me via {% for social in site.footer_social %}
+        <a href="{{ social.url }}" class="inline-block underline"
+          >{{ social.name }}</a
+        >{% if forloop.last %}.{% else %},{% endif %} {% endfor %}
+      </p>
     </div>
-  </div>
-
-  <div class="w-full lg:w-5/12 px-4 lg:pr-16 mt-6 lg:mt-0 lg:py-8 max-w-full">
-    <h1 class="text-black">Justin Conway</h1>
-    <p class="lg:text-lg"><span class="wave">👋</span> Howdy! My name is Justin and I am a Senior Engineering Manager at <a class="text-blue-700 hover:text-blue-800" href="//sproutsocial.com" target="_blank"
-        rel="noreferrer">Sprout&nbsp;Social</a> on our Brand Creative team. I’m passionate about the web and pork. I’m a proud parent who has spent over twelve years solving problems with web technologies. I’m always interested in finding new ways to develop challenging and innovative web products.</p>
-    <p class="lg:text-lg">You can connect with me at {% for social in site.footer_social %}{% if forloop.last %} or by{% endif %} <a target="_blank" class="text-blue-700 hover:text-blue-700" rel="noreferrer" href="{{social.url}}">{{social.name}}</a>{% if forloop.last == false %},{% endif %}{% endfor %}.
-    </p>
   </div>
 </section>
 
-<section class="max-w-7xl mx-auto lg:py-8 flex flex-wrap mt-6 lg:mt-0">
-  <div class="w-full">
-    <h2 class="text-2xl text-gray-700 mt-0 px-2">Writing</h2>
+<section
+  class="py-24 lg:py-52 dark:lg:pt-0 bg-slate-100 text-neutral-900 dark:bg-neutral-900 dark:text-slate-50"
+>
+  <div class="max-w-7xl mx-auto">
+    <div class="px-8 lg:px-0">
+      <h2 class="font-sans text-4xl tracking-tight">Writing</h2>
 
-    <div class="lg:flex">
-      {% for post in site.posts limit:1 %}
-      <article class="w-full lg:w-1/2">
-        <a class="block p-2 text-blue-700 hover:text-blue-800" href="{{ post.url | prepend: site.baseurl }}">
-          <h2 class="text-3xl my-0">
-            {{ post.title }}
-          </h2>
+      <div class="lg:grid lg:grid-cols-6 lg:gap-8 mt-8">
+        {% for post in site.posts limit:1 %}
+        <article class="block w-full lg:col-span-4">
+          <a class="block" href="{{ post.url | prepend: site.baseurl }}">
+            <h2 class="text-4xl lg:text-6xl font-sans font-bold tracking-tight">
+              {{ post.title }}
+            </h2>
 
-          <time class="block mt-2 text-black" datetime="{{post.date}}">
-            {{ post.date | date: "%b %-d, %Y" }}
-          </time>
+            <time class="block mt-2" datetime="{{post.date}}">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </time>
 
-          {% if post.featured_img %}
-          <img class="mt-4 block w-full h-auto lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ post.featured_img }}" alt="{{ post.title }}" loading="lazy">
-          {% endif %}
-        </a>
+            {% if post.featured_img %}
+            <img
+              class="block w-full h-auto mt-8 lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{ post.featured_img }}"
+              alt="{{ post.title }}"
+              loading="lazy"
+              height="9"
+              width="16"
+            />
+            {% endif %}
+          </a>
 
-        <div class="mt-2 p-2 max-w-full">
-          {% if post.description %}
-          <p>{{ post.description }}</p>
-          {% else %}
-          {{ post.excerpt }}
-          {% endif %}
-        </div>
-      </article>
-      {% endfor %}
-
-      <div class="w-full lg:w-1/2 lg:pl-16">
-        {% for post in site.posts offset:1 limit:4 %}
-        <a class="block w-full p-2 mb-4 text-blue-700 hover:text-blue-800" href="{{ post.url | prepend: site.baseurl }}">
-          <h2 class="text-2xl my-0">
-            {{ post.title }}
-          </h2>
-
-          <time class="block mt-2 text-black no-underline" datetime="{{post.date}}">
-            {{ post.date | date: "%b %-d, %Y" }}
-          </time>
-        </a>
+          <div class="mt-8 text-xl">
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% else %} {{ post.excerpt }} {% endif %}
+          </div>
+        </article>
         {% endfor %}
 
-        <p class="mb-0">
-          <a href="/writing/" class="block text-blue-700 hover:text-blue-800 p-2">
-            View all writing
-          </a>
-        </p>
-      </div>
+        <div class="w-full lg:col-span-2 lg:pl-16">
+          {% for post in site.posts offset:1 limit:4 %}
+          <a
+            class="block {% if forloop.first %}{% else %}mt-4{% endif %}"
+            href="{{ post.url | prepend: site.baseurl }}"
+          >
+            <h2 class="text-2xl font-bold font-sans">{{ post.title }}</h2>
 
+            <time class="block" datetime="{{post.date}}">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </time>
+          </a>
+          {% endfor %}
+
+          <p class="mt-8">
+            <a href="/writing/" class="block text-2xl"> View all writing </a>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
