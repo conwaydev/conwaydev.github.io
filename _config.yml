@@ -20,6 +20,8 @@ navigation:
   url: "/"
 - title: Writing
   url: "/writing/"
+- title: Resume
+  url: "/resume/"
 - title: Uses
   url: "/uses/"
 footer_social:
