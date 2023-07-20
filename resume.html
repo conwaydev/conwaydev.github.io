@@ -7,7 +7,7 @@ layout: page
 <article class="print:lg:text-base">
   <header>
     <h1
-      class="flex items-center text-5xl lg:text-7xl font-bold font-sans tracking-tight"
+      class="flex items-center text-5xl lg:text-7xl print:lg:text-4xl font-bold font-sans tracking-tight"
     >
       <svg
         class="block mr-4 text-yellow-500"
@@ -26,27 +26,35 @@ layout: page
     </h1>
     <p>
       Wheaton, IL &#8212;
+      <span class="hidden print:inline-block">conwaydev.com &#8212;</span>
       <a href="mailto:justin@conwaydev.com" class="underline"
         >justin@conwaydev.com</a
       >
     </p>
   </header>
-  <section class="py-8 lg:py-16 print:lg:py-8">
-    <h2 class="font-sans font-bold tracking-tight text-3xl">Profile</h2>
-    <p class="mt-4 lg:mt-8 print:text-base">
+  <section class="py-8 lg:py-16 print:lg:pt-8 print:lg:pb-4">
+    <h2 class="font-sans font-bold tracking-tight text-3xl print:text-xl">
+      Profile
+    </h2>
+    <p class="mt-4 lg:mt-8 print:lg:mt-2 print:text-sm">
       Chicago-based Engineering Manager with over fifteen years of experience
       solving problems with web technologies. I am interested in creating
       performant experiences for users regardless of ability and leading
       passionate/ curious teams to ship awesome/ rad work.
     </p>
   </section>
-  <section class="py:8 lg:py-16 print:lg:py-8">
-    <h2 class="font-sans font-bold tracking-tight text-3xl">Skills</h2>
-    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:text-base">
+  <section class="py:8 lg:py-16 print:lg:py-4">
+    <h2 class="font-sans font-bold tracking-tight text-3xl print:text-xl">
+      Skills
+    </h2>
+    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:mt-2 print:lg:text-base">
       <div class="lg:col-span-2">
         <h3 id="languages" class="font-sans">Languages</h3>
       </div>
-      <div aria-labelledby="languages" class="lg:col-span-10 text-lg print:text-sm">
+      <div
+        aria-labelledby="languages"
+        class="lg:col-span-10 text-lg print:text-sm"
+      >
         <ul class="list-disc pl-6">
           <li>
             HTML
@@ -103,7 +111,7 @@ layout: page
         </ul>
       </div>
     </div>
-    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:text-base">
+    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:mt-2 print:lg:text-base">
       <div class="lg:col-span-2">
         <h3 id="misc" class="font-sans">Misc</h3>
       </div>
@@ -125,14 +133,16 @@ layout: page
       </div>
     </div>
   </section>
-  <section class="py-8 lg:py-16 print:lg:py-8">
-    <h2 class="font-sans font-bold tracking-tight text-3xl">Experience</h2>
-    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8">
+  <section class="py-8 lg:py-16 print:lg:py-4">
+    <h2 class="font-sans font-bold tracking-tight text-3xl print:text-xl">
+      Experience
+    </h2>
+    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:mt-2">
       <div class="lg:col-span-2">
         <h3 id="sprout-social" class="font-sans text-2xl print:lg:text-lg">
           Sprout Social
         </h3>
-        <p class="text-sm mt-0">Chicago, IL</p>
+        <p class="text-sm print:text-xs mt-0">Chicago, IL</p>
       </div>
       <div
         aria-labelledby="sprout-social"
@@ -143,7 +153,7 @@ layout: page
             <h4 class="lg:text-2xl font-sans print:lg:text-lg">
               Senior Engineering Manager
             </h4>
-            <p class="text-sm mt-0">May 2022 &#8212; Present</p>
+            <p class="text-sm print:text-xs mt-0">May 2022 &#8212; Present</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 In charge of our Brand Creative Web Engineering team.
@@ -164,7 +174,7 @@ layout: page
             <h4 class="lg:text-2xl mt-4 font-sans print:lg:text-lg">
               Engineering Manager
             </h4>
-            <p class="text-sm mt-0">September 2019 &#8212; May 2022</p>
+            <p class="text-sm print:text-xs mt-0">September 2019 &#8212; May 2022</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 Received an award for exemplifying our Global Leadership Model
@@ -184,7 +194,7 @@ layout: page
             <h4 class="lg:text-2xl mt-4 font-sans print:lg:text-lg">
               Senior Web Engineer
             </h4>
-            <p class="text-sm mt-0">June 2018 &#8212; September 2019</p>
+            <p class="text-sm print:text-xs mt-0">June 2018 &#8212; September 2019</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 Received a company value award for technical contributions to
@@ -210,7 +220,7 @@ layout: page
             <h4 class="lg:text-2xl mt-4 font-sans print:lg:text-lg">
               Web Engineer
             </h4>
-            <p class="text-sm mt-0">July 2015 &#8212; June 2018</p>
+            <p class="text-sm print:text-xs mt-0">July 2015 &#8212; June 2018</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 Collaborated with Visual design and Marketing to bring marketing
@@ -229,12 +239,12 @@ layout: page
         </ul>
       </div>
     </div>
-    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8">
+    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:mt-2">
       <div class="lg:col-span-2">
         <h3 id="stagebloc" class="font-sans text-2xl print:lg:text-lg">
           StageBloc
         </h3>
-        <p class="text-sm mt-0">Chicago, IL</p>
+        <p class="text-sm print:text-xs mt-0">Chicago, IL</p>
       </div>
       <div
         aria-labelledby="stagebloc"
@@ -245,7 +255,7 @@ layout: page
             <h4 class="lg:text-2xl font-sans print:lg:text-lg">
               Front End Developer
             </h4>
-            <p class="text-sm mt-0">November 2013 &#8212; July 2015</p>
+            <p class="text-sm print:text-xs mt-0">November 2013 &#8212; July 2015</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 Worked as part of StageBloc’s front-end team, creating new
@@ -264,12 +274,12 @@ layout: page
         </ul>
       </div>
     </div>
-    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8">
+    <div class="lg:grid lg:grid-cols-12 mt-4 lg:mt-8 print:lg:mt-2">
       <div class="lg:col-span-2">
         <h3 id="fivethirty" class="font-sans text-2xl print:lg:text-lg">
           530MediaLab
         </h3>
-        <p class="text-sm mt-0">Long Beach, CA</p>
+        <p class="text-sm print:text-xs mt-0">Long Beach, CA</p>
       </div>
       <div
         aria-labelledby="fivethirty"
@@ -280,7 +290,7 @@ layout: page
             <h4 class="lg:text-2xl font-sans print:lg:text-lg">
               Lead Front End Developer
             </h4>
-            <p class="text-sm mt-0">August 2011 &#8212; October 2013</p>
+            <p class="text-sm print:text-xs mt-0">August 2011 &#8212; October 2013</p>
             <ul class="mt-4 pl-6 list-disc print:text-sm">
               <li class="mt-0">
                 Worked as a team lead of 8 developers to provide development
