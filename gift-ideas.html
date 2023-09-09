@@ -6,8 +6,40 @@ layout: page
 ---
 
 <div class="mt-8">
+  <p class="leading-large">
+    Thank you for taking a look at this very important part of the world wide
+    web, Justin Conway’s <em>material wants in life</em>. At one point I wrote a
+    <a href="https://want-project.web.app/" class="underline"
+      >web application</a
+    >
+    for this.
+  </p>
+  <h2 class="mt-4 lg:mt-8 font-sans tracking-tight font-bold text-3xl">
+    What do you give the man who has everything he needs?
+  </h2>
+  <p class="mt-4 lg:mt-8">
+    Great question, ideally nothing. I highly recommend not gifting me anything
+    and instead donating to something worthwhile such as the non-profit I'm
+    volunteering at,
+    <a href="https://vetswhocode.io/" className="underline">Vets Who Code</a>.
+    If you're still listening here are some items that are on my ever-growing
+    wishlist:
+  </p>
+  <h2
+    class="border-t-2 pt-4 mt-4 lg:pt-8 lg:mt-8 font-sans tracking-tight font-bold"
+  >
+    Wants:
+  </h2>
   <div id="root">Loading...</div>
 </div>
+
+<p class="mt-4 lg:mt-8 border-t-2 pt-4 lg:pt-8">
+  That's it! If you see the list and you're still thinking about items, then
+  babysitting is becoming an increasingly more valuable gift. Appreciate you
+  taking the time to read this, but seriously just donate what you can to
+  <a href="https://vetswhocode.io/" class="underline">https://vetswhocode.io/</a
+  >.
+</p>
 
 <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -106,37 +138,12 @@ layout: page
 
     return (
       <div>
-        <p className="leading-large">
-          Thank you for taking a look at this very important part of the world
-          wide web, Justin Conway’s <em>material wants in life</em>. At one
-          point I wrote a{" "}
-          <a href="https://want-project.web.app/" className="underline">
-            web application
-          </a>{" "}
-          for this.
-        </p>
-        <h2 class="mt-4 lg:mt-8 font-sans tracking-tight font-bold text-3xl">
-          What do you give the man who has everything he needs?
-        </h2>
-        <p class="mt-4 lg:mt-8">
-          Great question, ideally nothing. I highly recommend not gifting me
-          anything and instead donating to something worthwhile such as the
-          non-profit I'm volunteering at,{" "}
-          <a href="https://vetswhocode.io/" className="underline">
-            Vets Who Code
-          </a>
-          . If you're still listening here are some items that are on my
-          ever-growing wishlist:
-        </p>
-        <h2 class="border-t-2 pt-4 mt-4 lg:pt-8 lg:mt-8 font-sans tracking-tight font-bold">
-          Wants:
-        </h2>
-        <ul class="mt-4 lg:mt-8 grid lg:grid-cols-2 gap-4 lg:gap-8">
+        <ul className="mt-4 lg:mt-8 grid lg:grid-cols-2 gap-4 lg:gap-8">
           {wants.map((want) => {
             return (
               <li key={want.name}>
                 <a href={want.url} target="_blank">
-                  <div class="overflow-hidden aspect-video w-full rounded">
+                  <div className="overflow-hidden aspect-video w-full rounded">
                     <img
                       src={want.imgSrc}
                       alt={want.name}
@@ -147,17 +154,16 @@ layout: page
                   </div>
                   <h3 className="mt-4 underline">
                     {want.name}{" "}
-                    <span class="no-underline">
+                    <span className="no-underline">
                       – {formatter.format(want.price)}
                     </span>
                   </h3>
-                  <div class="text-base mt-2">{want.description}</div>
+                  <div className="text-base mt-2">{want.description}</div>
                 </a>
               </li>
             );
           })}
         </ul>
-        <p class="mt-4 lg:mt-8 border-t-2 pt-4 lg:pt-8">That's it! If you see the list and you're still thinking about items, then babysitting is becoming an increasingly more valuable gift. Appreciate you taking the time to read this, but seriously just donate what you can to <a href="https://vetswhocode.io/" className="underline">https://vetswhocode.io/</a>.</p>
       </div>
     );
   }
