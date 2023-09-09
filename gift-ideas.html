@@ -1,0 +1,168 @@
+---
+title: Gift Ideas
+date: 2023-07-02 15:41:00 Z
+permalink: "/gift-ideas/"
+layout: page
+---
+
+<div class="mt-8">
+  <div id="root">Loading...</div>
+</div>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel">
+  function MyApp() {
+    const wants = [
+      {
+        name: "Kate and Laurel Sylvie Mid-Century Succulents Framed Canvas Wall Art",
+        url: "https://www.amazon.com/gp/product/B07X1Z3VCK/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&th=1",
+        imgSrc:
+          "https://m.media-amazon.com/images/I/81dgbv-MIOL._AC_SX679_.jpg",
+        description: `I am very into “basic” art lately, and this is no exception. I want to have this in any room of the house, it brings me joy.`,
+        price: "59",
+      },
+      {
+        name: "Darkthrone longsleeve shirt",
+        url: "https://www.impericon.com/us/darkthrone-under-a-funeral-moon-longsleeve.html",
+        imgSrc:
+          "https://www.impericon.com/1000x1446x90/media/catalog/product/2/0/20210602_darkthrone_lss_under_front_lg.jpg",
+        description: `Wanted this shirt for a long time. I am looking for a long sleeve shirt to wear all winter and I will likely buy this for myself this if my wife doesn't. We all know there is a high likely she won't so 🤷🏻‍♀️`,
+        price: "38",
+      },
+      {
+        name: "Independent State 11 Trucks (Size 159)",
+        url: "https://upriseskateshop.com/products/stage-11-standard-trucks?variant=39399037960381",
+        imgSrc:
+          "https://upriseskateshop.com/cdn/shop/products/xl_Nov19IndependentTrucks_3b7c81ba-d6bc-411d-86f4-30bc3b743eed.jpg?v=1616074265&width=1206",
+        description: `The trucks on my current skateboard are bad, the bearings even worse, and I'm in this for the long haul, ideally with trucks that can accomodate a big ol' boy.`,
+        price: "50",
+      },
+      {
+        name: "Jake Longstreth “Springtime in Southern California” print",
+        url: "https://shop.miergallery.com/collections/posters/products/jake-longstreth-springtime-in-southern-california",
+        imgSrc:
+          "https://shop.miergallery.com/cdn/shop/files/POSTERS-LAYOUT2-2023.jpg?v=1691265396",
+        description:
+          "This is a print by my favorite artist who does photorealistic paintings of Southern California. I would love to have this so I can get it framed for our living room.",
+        price: "35",
+      },
+      {
+        name: "Raspberry Pi Zero 2 W",
+        url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+        imgSrc:
+          "https://assets.raspberrypi.com/static/51035ec4c2f8f630b3d26c32e90c93f1/2b8d7/zero2-hero.webp",
+        description: `Its 15 dollars for a computer I can run a server on or set an alarm to water my plants. I've wanted one of these forever and this is the cheapest model I've ever seen. Fun toy to tinker with.`,
+        price: "15",
+      },
+      {
+        name: "Point Break: Raymond Pettibon, Surfers and Waves",
+        url: "https://www.amazon.com/dp/1644230356/?coliid=I1NZDEZZTGGUEN&colid=1ERTF41O4NYAE&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it",
+        imgSrc:
+          "https://m.media-amazon.com/images/I/61CJcjX45sL._SX403_BO1,204,203,200_.jpg",
+        description:
+          "Pettibon is the heart of the Black Flag band. This is a weird art book of his paintings of surfers. I really want this becuase its remarkably South Bay.",
+        price: "39",
+      },
+      {
+        name: "Fred Perry Polo",
+        url: "https://www.fredperry.com/men/polo-shirts/m3600-m3600-s06.html",
+        imgSrc:
+          "https://www.fredperry.com/media/catalog/product/cache/429b753c1b8fe59ce8bf32112d6ccccb/M/3/M3600_S06_1.JPG",
+        description: `Proud Boys are in jail and I am once again allowed to wear my favorite british clothing brand, we are so back. This must have been how US soldiers felt after WW2.`,
+        price: "99",
+      },
+      {
+        name: "Black Flag stick and poke tattoo",
+        url: null,
+        imgSrc: "https://i.redd.it/4sdjbfnf7bk91.jpg",
+        description: `This one goes out to Lydia. Lets face it, I don't want to go to a tattoo parlor and ask them to give me a really nice tattoo of the bars with it saying “#️⃣3️⃣1️⃣0️⃣” inside of it and feel good about it as a 35 year old adult. As a 35 year old, I want a prison tattoo gifted from someone close to me who understands the importance of the South Bay. 😤`,
+        price: "0",
+      },
+      {
+        name: "Anti Hero Skateboards classic eagle deck (8.62in)",
+        url: "https://upriseskateshop.com/products/team-classic-eagle-deck-8-62?_pos=4&_sid=59b9152e6&_ss=r",
+        imgSrc:
+          "https://upriseskateshop.com/cdn/shop/products/May22AntiHeroSkateboardsTeamEagleClassic86A.jpg?v=1652648196&width=1206",
+        description: `Since before the pandemic I got back into skateboarding, and specifically (teenage me would gag at this statement) the SF-based company Anti Hero, home of (all hail) Cardiel and many others. This is a big boy board I've wanted for a long while.`,
+        price: "65",
+      },
+      {
+        name: 'Jason Anderson "First Light" LP',
+        url: "https://www.salinasrecords.com/products/732017-jason-anderson-first-light-lp",
+        imgSrc: "https://s9.limitedrun.com/images/1602382/JA_FL.jpg",
+        description:
+          "I would describe Jason as a sort of hippy energetic youth pastor? Steff and I have seen Jason a bunch, and hopefully are going to go see him in October, but I do not own this record. I would also accept literally anything off this label, Selinas Records is the greatest record label of all time.",
+        price: "18",
+      },
+    ];
+
+    const formatter = new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+    });
+
+    return (
+      <div>
+        <p className="leading-large">
+          Thank you for taking a look at this very important part of the world
+          wide web, Justin Conway’s <em>material wants in life</em>. At one
+          point I wrote a{" "}
+          <a href="https://want-project.web.app/" className="underline">
+            web application
+          </a>{" "}
+          for this.
+        </p>
+        <h2 class="mt-4 lg:mt-8 font-sans tracking-tight font-bold text-3xl">
+          What do you give the man who has everything he needs?
+        </h2>
+        <p class="mt-4 lg:mt-8">
+          Great question, ideally nothing. I highly recommend not gifting me
+          anything and instead donating to something worthwhile such as the
+          non-profit I'm volunteering at,{" "}
+          <a href="https://vetswhocode.io/" className="underline">
+            Vets Who Code
+          </a>
+          . If you're still listening here are some items that are on my
+          ever-growing wishlist:
+        </p>
+        <h2 class="border-t-2 pt-4 mt-4 lg:pt-8 lg:mt-8 font-sans tracking-tight font-bold">
+          Wants:
+        </h2>
+        <ul class="mt-4 lg:mt-8 grid lg:grid-cols-2 gap-4 lg:gap-8">
+          {wants.map((want) => {
+            return (
+              <li key={want.name}>
+                <a href={want.url} target="_blank">
+                  <div class="overflow-hidden aspect-video w-full rounded">
+                    <img
+                      src={want.imgSrc}
+                      alt={want.name}
+                      className="hover:scale-125 transition-all duration-500 db w-full h-full object-cover"
+                      height="9"
+                      width="16"
+                    />
+                  </div>
+                  <h3 className="mt-4 underline">
+                    {want.name}{" "}
+                    <span class="no-underline">
+                      – {formatter.format(want.price)}
+                    </span>
+                  </h3>
+                  <div class="text-base mt-2">{want.description}</div>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+        <p class="mt-4 lg:mt-8 border-t-2 pt-4 lg:pt-8">That's it! If you see the list and you're still thinking about items, then babysitting is becoming an increasingly more valuable gift. Appreciate you taking the time to read this, but seriously just donate what you can to <a href="https://vetswhocode.io/" className="underline">https://vetswhocode.io/</a>.</p>
+      </div>
+    );
+  }
+
+  const container = document.getElementById("root");
+  const root = ReactDOM.createRoot(container);
+  root.render(<MyApp />);
+</script>
