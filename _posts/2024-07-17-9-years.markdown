@@ -6,7 +6,7 @@ layout: post
 
 Y’all, I just hit nine years at Sprout Social! Can you believe it? Anytime a friend asks, "You still at Sprout?" I typically respond with, "Yeah, I’m still at Sprout." I don’t mean this in a bad way, but it’s unusual in tech to stay at a company for so long. The folks I’ve interviewed and hired usually haven’t stayed even five years at an organization. Every year I go through an existential crisis of “Am I providing value with what I do?” Usually, I realize that's an annoying question, but this year is different. I’m not going to get a gold watch for my time at Sprout, but there are so many things I continue to learn in my day-to-day. I want to talk about nine lessons I’ve learned working at Sprout Social.
 
-<ol class="list-decimal pl-12">
+<ol class="list-decimal pl-12 ">
 <li class="mt-8">
 <h2 class="font-sans text-3xl">Be willing to adapt</h2>
 
