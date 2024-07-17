@@ -2,7 +2,7 @@ module.exports = {
   content: [
     "./_includes/*.{html,js}",
     "./_layouts/*.{html,js}",
-    "./_posts/*.{html,md}",
+    "./_posts/*.{html,md,markdown}",
     "./*.{html,md}",
   ],
   theme: {
