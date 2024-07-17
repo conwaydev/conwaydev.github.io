@@ -24,6 +24,7 @@ layout: default
       </p>
       <p class="text-xl lg:text-3xl mt-4 lg:mt-8">
         Connect with me via {% for social in site.footer_social %}
+        {% if forloop.last %}or {% endif %}
         <a href="{{ social.url }}" class="inline-block underline"
           >{{ social.name }}</a
         >{% if forloop.last %}.{% else %},{% endif %} {% endfor %}
