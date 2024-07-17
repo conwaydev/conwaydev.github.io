@@ -39,7 +39,7 @@ I have an incredible manager. So much so that I can’t imagine leaving the orga
 <li class="mt-8">
 <h2 class="font-sans text-3xl">Be assertive</h2>
 
-In software development, there’s no shortage of soapboxes to stand on or arbitrary hills to die on (tabs vs. spaces, anyone?), but an important characteristic of being a team player is being assertive and knowing how to sell why you feel that way. Sometimes you’re going to be wrong, but it’s more impactful to make a decision and run with it than to have repeat conversations with the team over and over again because no one really wants to commit. We used to have the “scale of f\*cks given,” which was helpful to even allow the space to be assertive. From there, leading the charge and advocating for an approach allows work to actually get done, not just talked about.
+In software development, there’s no shortage of soapboxes to stand on or arbitrary hills to die on (tabs vs. spaces, anyone?), but an important characteristic of being a team player is being assertive and knowing how to sell why you feel that way. Sometimes you’re going to be wrong, but it’s more impactful to make a decision and run with it than to have repeat conversations with the team over and over again because no one really wants to commit. We used to have the “scale of f*cks given,” which was helpful to even allow the space to be assertive. From there, leading the charge and advocating for an approach allows work to actually get done, not just talked about.
 </li>
 <li class="mt-8">
 <h2 class="font-sans text-3xl">Be open to feedback</h2>
