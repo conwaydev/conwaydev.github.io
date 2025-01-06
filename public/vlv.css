@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  img,
+  iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    min-height: 320px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  html {
+    font-size: 18px !important;
+  }
+  body {
+    font-family: "Roboto Mono", "Menlo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background: #fff;
+    color: #424242;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background: #1b1b1b;
+    }
+  }
+  @media screen and (min-width: 60rem) {
+    body {
+      font-size: 1rem;
+    }
+  }
+
+  a,
+  .list:hover a,
+  .listhover a,
+  .odd a,
+  .box a,
+  .nav li a {
+    color: #1b1b1b !important;
+    -webkit-text-size-adjust: 100% !important;
+       -moz-text-size-adjust: 100% !important;
+            text-size-adjust: 100% !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a,
+    .list:hover a,
+    .listhover a,
+    .odd a,
+    .box a,
+    .nav li a {
+        color: #d1d1d1 !important;
+    }
+  }
+
+  .odd,
+  table.jCalendar td,
+  .box {
+    color: inherit;
+  }
+
+  #content {
+    padding: 1.6rem;
+    max-width: 60rem;
+    margin: 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  #content .pad {
+    padding: 0;
+  }
+
+  .setdown {
+    display: flex;
+    white-space: nowrap;
+  }
+  .setdown li,
+  .setdown a {
+    display: inline-block;
+  }
+
+  .data > div,
+  .post {
+    margin-top: 1.6rem;
+  }
+
+  .list .subject,
+  .post .subject {
+    display: flex;
+    width: 100%;
+  }
+  .list .subject a,
+  .post .subject a {
+    width: 100%;
+    display: block;
+    font-weight: 500;
+  }
+  .list .subject span,
+  .post .subject span {
+    display: none;
+  }
+  .list .postbody,
+  .post .postbody {
+    margin-top: 0.4rem;
+  }
+  .list .info,
+  .post .info {
+    display: flex;
+  }
+
+  .readbar,
+  .extra,
+  #quicksearch,
+  #auth,
+  .nophoto {
+    display: none;
+  }
+
+  .list,
+  .post,
+  .small,
+  .subtitle,
+  .setdown,
+  .nav.bottom,
+  .memberinfo {
+    font-size: 0.9rem !important;
+  }
+
+  .nav.bottom {
+    display: flex;
+    margin-top: 1.6rem;
+  }
+  .nav.bottom a {
+    display: inline-block;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 0.8rem 0 0.8rem 0.8rem;
+    padding-left: 0.8rem;
+    border-left: 3px solid #6d6d6d;
+    color: #6d6d6d;
+  }
+
+  #form {
+    margin-bottom: 1.6rem;
+  }
+  #form fieldset {
+    font-size: 0.8rem;
+    padding: 1.6rem;
+    border: 1px solid #6d6d6d;
+  }
+  #form textarea {
+    background: transparent;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border: 1px solid #6d6d6d;
+    width: 100% !important;
+    height: auto;
+    font-family: inherit;
+    color: #424242;
+    float: none !important;
+  }
+  @media (prefers-color-scheme: dark) {
+    #form textarea {
+        color: #fff;
+    }
+  }
+  #form ol {
+    list-style: none;
+  }
+  #form input {
+    background: #f1f1f1;
+    color: #424242;
+    margin-top: 0;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    padding: 0.8rem 1.6rem;
+    font-family: inherit;
+    border: 0;
+    background: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #6d6d6d;
+    float: none;
+  }
+  #form legend,
+  #form label,
+  #form sup {
+    display: block;
+    float: none;
+    color: inherit !important;
+  }
+  #form .submit {
+    background: dodgerblue;
+    color: white;
+    margin-left: 0 !important;
+    margin-top: 1.6rem !important;
+    border-color: dodgerblue;
+  }
+  #form #preview {
+    color: #1b1b1b;
+  }
+  @media (prefers-color-scheme: dark) {
+    #form #preview {
+        color: #fff;
+    }
+  }
+
+  .list li {
+    float: none;
+    padding: 0;
+  }
+
+  .list .lastpost {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+
+  .read {
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+  }
+
+  .list:hover,
+  .listhover {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .member,
+  .posts,
+  .subject,
+  .lastpost {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    padding-left: 0;
+    text-align: left;
+    float: none;
+    height: auto;
+  }
+
+  .setdown {
+    position: relative;
+    bottom: auto;
+  }
+
+  .subtitle {
+    float: none;
+  }
+
+  .nav {
+    height: auto;
+    width: auto;
+    float: none;
+    _float: none;
+    display: block;
+    overflow-y: auto;
+  }
+
+  .nav li {
+    float: none;
+    margin-left: 0;
+    background-color: inherit;
+    border-top: 0;
+    padding-bottom: 0;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    display: block;
+  }
+
+  .nav li,
+  .nav li:hover,
+  .nav li a,
+  .nav li a:hover,
+  .subtitle a {
+    padding: 0;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+  }
+
+  .even,
+  div.dp-popup,
+  table.jCalendar td.other-month {
+    background-color: #ffffff;
+    color: inherit;
+  }
+
+  .nav li,
+  .nav li:hover,
+  .nav li a,
+  .nav li a:hover,
+  .nav li a:hover,
+  .nav li:hover,
+  .nav li a,
+  .box a,
+  .list:hover a,
+  .listhover a,
+  .nav li a,
+  .odd a,
+  a,
+  .even a {
+    color: inherit !important;
+  }
+
+  body a {
+    text-decoration: underline;
+    word-break: break-all;
+    -webkit-text-size-adjust: 100% !important;
+       -moz-text-size-adjust: 100% !important;
+            text-size-adjust: 100% !important;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: underline;
+  }
+
+  .pref,
+  .prefdata {
+    float: none;
+    width: auto;
+    font-weight: normal;
+  }
+
+  .subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: inherit !important;
+  }
+
+  .even,
+  div.dp-popup,
+  table.jCalendar td.other-month,
+  .odd,
+  table.jCalendar td,
+  .box,
+  .box,
+  .odd,
+  table.jCalendar td,
+  .list:hover,
+  .listhover {
+    color: inherit !important;
+    background-color: inherit !important;
+  }
+
+  .read {
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+
+  ul.list .post span::before {
+    content: "#: ";
+  }
+
+  .setdown a,
+  .subtitle a,
+  .nav.bottom a {
+    padding: 0.4rem !important;
+  }
+
+  .even,
+  div.dp-popup,
+  table.jCalendar td.other-month,
+  .box,
+  .even,
+  .list:hover,
+  .listhover,
+  .odd,
+  div.dp-popup,
+  table.jCalendar td,
+  table.jCalendar td.other-month,
+  .odd,
+  table.jCalendar td,
+  .box,
+  .even,
+  div.dp-popup,
+  table.jCalendar td.other-month {
+    color: inherit !important;
+  }
+
+  .view li {
+    padding: 0;
+  }
+
+  .postinfo {
+    float: none;
+  }
+
+  .controls {
+    margin-left: auto;
+    float: none;
+    padding-left: 0.4rem;
+  }
+  .controls a {
+    word-break: inherit;
+  }
+
+  .nav li b {
+    font-weight: normal;
+  }
+
+  .list {
+    cursor: initial;
+    overflow: visible;
+  }
+
+  .extra {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 0;
+    position: absolute;
+    left: -10px;
+  }
+
+  .subject {
+    position: relative;
+  }
+
+  .view li,
+  .firstpost {
+    margin-bottom: 0;
+  }
